@@ -210,9 +210,10 @@ This project uses incremental changes to synchronize server files. Each set of c
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
+## Acknowledgments / Tech Stack
 
 - [Google Drive API](https://developers.google.com/drive)
+- [ChatGPT](https://chatgpt.com)
 - [Python](https://www.python.org/)
 - [Minecraft](https://www.minecraft.net/)
 - [tqdm](https://tqdm.github.io/) for progress bars in the scripts
