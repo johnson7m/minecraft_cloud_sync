@@ -69,6 +69,12 @@ IF EXIST "%SERVER_FILES_DIR%\run.bat" (
     EXIT /B 1
 )
 
+REM Run authenticate_gdrive.py
+echo Authenticating with Google Drive...
+cd "%SYNC_SCRIPTS_DIR%"
+%PYTHON_CMD% authenticate_gdrive.py
+cd "%ROOT_DIR%"
+
 REM Run upload_server_files.py
 echo Uploading server files...
 cd "%SYNC_SCRIPTS_DIR%"
